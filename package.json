@@ -1,0 +1,26 @@
+{
+  "name": "easy-react",
+  "version": "1.0.0",
+  "private": false,
+  "author": "wangyy",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server -c webpack.config.js --open"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "@babel/preset-typescript": "^7.26.0",
+    "@types/node": "^22.10.2",
+    "autoprefixer": "^10.4.20",
+    "babel-loader": "^9.2.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "postcss-loader": "^8.1.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
