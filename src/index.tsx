@@ -1,11 +1,14 @@
-// import React from "react";
-// import ReactDOM from "react-dom/client";
-import App from "./App";
-console.log(App);
-
+// import App from "./App";
 import "./index.css";
 
-// const root = ReactDOM.createRoot(
-//   document.getElementById("root") as HTMLElement
-// );
-// root.render(<App />);
+const aaa = (
+  <div key="key" className="test_react">
+    <div>1111</div>
+    <ul>
+      <li>1</li>
+      <li>2</li>
+    </ul>
+  </div>
+);
+// 查看虚拟dom
+console.log(aaa);
