@@ -1,11 +1,11 @@
 import { REACT_ELEMENT_TYPE } from "../../../shared/ReactSymbols"
 
 /**
- * 创建虚拟DOM
+ * create vdom (创建虚拟DOM)
  * @param {*} type 
  * @param {*} key 
- * @param {*} self 说的放this,暂时未用
- * @param {*} source 暂时未用
+ * @param {*} self this
+ * @param {*} source not used
  * @param {*} owner 
  * @param {*} props 
  */
@@ -34,8 +34,8 @@ function ReactElement(
 /**
  * 
  * @param {*} type div/h1/function...
- * @param {*} config 配置项和children内容
- * @param {*} maybeKey 元素上添加的key
+ * @param {*} config all config and children info(配置项和children内容)
+ * @param {*} maybeKey elment key(元素上添加的key)
  */
 
 export function jsxProd(type, config, maybeKey) {
@@ -64,7 +64,7 @@ export function jsxProd(type, config, maybeKey) {
     key,
     undefined,
     undefined,
-    null,// getOwner()开发模式再用
+    null,// getOwner() not used(没啥用)
     props,
   );
 }

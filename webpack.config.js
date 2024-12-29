@@ -53,7 +53,8 @@ module.exports = {
   resolve: {
     extensions: [".js", ".tsx", ".ts"],
     alias: {
-      react: path.resolve("src/package/react")
+      react: path.resolve("src/package/react"),
+      "react-dom": path.resolve("src/package/react-dom")
     }
   },
   stats: "errors-only",
